@@ -92,7 +92,7 @@ function AddMovieForm() {
 
     dispatch(addMovie(movie));
 
-    navigation()
+    navigation('/');
   }
 
   function handleSubmit(e) {
